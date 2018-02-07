@@ -258,10 +258,11 @@ footer {
     left:455px;
 }
 
+
+
 /* Media Queries start here */
 
 @media screen and (max-width: 980px) and (min-width: 769px) {
-
 
 /*makes header red to note change in view port*/
 header {
@@ -281,13 +282,7 @@ header {
 
 /*sets background and positioning of portfolio section*/
 #portfolio-contents {
-    margin-top:60px;
-    background-color: #ffffff;
     width: 50%;
-    padding: 30px; 
-    margin-left:60px;
-    float:left;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     height: 100%;
 }
 
@@ -336,5 +331,11 @@ aside {
     width: 27%;
 
 }
-
 }
+
+@media screen and (max-width: 767px) and (min-width: 551px) {
+    header {
+        background-color: #428a34;
+        border-bottom: 10px solid orange;
+        }
+    }
